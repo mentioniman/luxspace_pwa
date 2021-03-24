@@ -15,7 +15,7 @@ import Offline from "./components/Offline.js";
 
 function App() {
   const [showModal, setShowModal] = React.useState(false);
-  // const [items, setItems] = React.useState([]);
+  const [items, setItems] = React.useState([]);
   const [offlineStatus, setOfflineStatus] = React.useState(!navigator.onLine);
 
   function handleOfflineStatus() {
